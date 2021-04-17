@@ -78,7 +78,7 @@ void permution(int n){
 
 ```java
 //use |1 1| to calculate fibonacci. |1 1|.| a(n) |==>|a(n+1)|
-//	  |1 0|							|1 0|`|a(n-1)|==>| a(n) |
+//    |1 0|                         |1 0|`|a(n-1)|==>| a(n) |
 int[][] matrix=new int[2][2];
 matrix[0][0]=matrix[0][1]=matrix[1][0]=1;
 
